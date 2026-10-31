@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toby's Wachusett Adventure</title>
+    <meta
+      name="description"
+      content="A photo log of Toby's Wachusett hiking adventure, capturing the trail, summit views, and memorable moments."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container nav-wrap">
+        <div class="brand">Toby's Wachusett</div>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#story">Story</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#stats">Stats</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Mountain Memories</p>
+            <h1>Wachusett Adventure</h1>
+            <p class="lead">
+              A sunrise hike, windy summit views, and one unforgettable day on the trails.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#gallery">View Photos</a>
+              <a class="button secondary" href="#story">Read the Story</a>
+            </div>
+          </div>
+          <div class="hero-card">
+            <img
+              src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=900&q=80"
+              alt="Mountain trail overlook"
+            />
+            <div class="hero-badge">
+              <span>Trail</span>
+              <strong>Wachusett Mountain</strong>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="stats" class="stats section">
+        <div class="container stats-grid">
+          <article class="stat-card">
+            <span class="stat-number">6.5</span>
+            <span class="stat-label">Miles hiked</span>
+          </article>
+          <article class="stat-card">
+            <span class="stat-number">2</span>
+            <span class="stat-label">Summit stops</span>
+          </article>
+          <article class="stat-card">
+            <span class="stat-number">1</span>
+            <span class="stat-label">Big adventure</span>
+          </article>
+          <article class="stat-card">
+            <span class="stat-number">∞</span>
+            <span class="stat-label">Memories made</span>
+          </article>
+        </div>
+      </section>
+
+      <section id="story" class="story section">
+        <div class="container story-grid">
+          <div>
+            <p class="eyebrow">The day</p>
+            <h2>Fresh air, big views, and the kind of day you remember.</h2>
+          </div>
+          <div class="story-copy">
+            <p>
+              Toby set out early, ready for a quiet climb and a little time away from the usual routine.
+              The trail started cool and shaded, then opened into bright ridgelines with broad views over the valley.
+            </p>
+            <p>
+              By the time we reached the summit, the wind had picked up and the sky was glowing in warm gold and blue.
+              It was the perfect place to pause, take in the views, and snap a few photos before heading back down.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="gallery section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Photo log</p>
+            <h2>Moments along the trail</h2>
+          </div>
+          <div class="filter-row" aria-label="Gallery filters">
+            <button class="filter active" data-filter="all">All</button>
+            <button class="filter" data-filter="trail">Trail</button>
+            <button class="filter" data-filter="summit">Summit</button>
+            <button class="filter" data-filter="sunset">Sunset</button>
+          </div>
+          <div id="photoGrid" class="photo-grid" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>Made for Toby's Wachusett adventure.</p>
+      </div>
+    </footer>
+
+    <div id="lightbox" class="lightbox" aria-hidden="true">
+      <button class="lightbox-close" aria-label="Close photo">×</button>
+      <img id="lightboxImage" src="" alt="Expanded photo" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
