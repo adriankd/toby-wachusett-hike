@@ -2,38 +2,32 @@ const photos = [
   {
     title: 'Trailhead Start',
     category: 'trail',
-    image:
-      'https://images.unsplash.com/photo-1522163182402-834f871fd851?auto=format&fit=crop&w=1000&q=80'
+    image: 'photos/20261031_120816.jpg'
   },
   {
     title: 'Forest Switchbacks',
     category: 'trail',
-    image:
-      'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=1000&q=80'
+    image: 'photos/20261031_121125.jpg'
   },
   {
     title: 'Ridge Views',
     category: 'summit',
-    image:
-      'https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=80'
+    image: 'photos/20261031_122240.jpg'
   },
   {
     title: 'Summit Moment',
     category: 'summit',
-    image:
-      'https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=80'
+    image: 'photos/20261031_123805.jpg'
   },
   {
     title: 'Golden Hour',
     category: 'sunset',
-    image:
-      'https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1000&q=80'
+    image: 'photos/20261031_130707.jpg'
   },
   {
     title: 'Last Light',
     category: 'sunset',
-    image:
-      'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1000&q=80'
+    image: 'photos/20261031_143620.jpg'
   }
 ];
 
