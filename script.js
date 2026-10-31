@@ -1,33 +1,33 @@
 const photos = [
   {
-    title: 'Trailhead Start',
+    title: 'North Road Trailhead',
     category: 'trail',
     image: 'photos/20261031_120816.jpg'
   },
   {
-    title: 'Forest Switchbacks',
+    title: 'Balance Rock Road',
+    category: 'trail',
+    image: 'photos/20261031_121105.jpg'
+  },
+  {
+    title: 'Balance Rock Detour',
     category: 'trail',
     image: 'photos/20261031_121125.jpg'
   },
   {
-    title: 'Ridge Views',
+    title: 'Route to the Higher Trail',
+    category: 'trail',
+    image: 'photos/20261031_121427.jpg'
+  },
+  {
+    title: 'Climbing Toward Pine Hill',
     category: 'summit',
     image: 'photos/20261031_122240.jpg'
   },
   {
-    title: 'Summit Moment',
+    title: 'Pine Hill Summit',
     category: 'summit',
     image: 'photos/20261031_123805.jpg'
-  },
-  {
-    title: 'Golden Hour',
-    category: 'sunset',
-    image: 'photos/20261031_130707.jpg'
-  },
-  {
-    title: 'Last Light',
-    category: 'sunset',
-    image: 'photos/20261031_143620.jpg'
   }
 ];
 
