@@ -1,21 +1,21 @@
 const photos = [
   {
-    title: 'North Road Trailhead',
+    title: 'North Road',
     category: 'trail',
     image: 'photos/20261031_120816.jpg'
   },
   {
-    title: 'Balance Rock Road',
+    title: 'North Road Continues',
     category: 'trail',
     image: 'photos/20261031_121105.jpg'
   },
   {
-    title: 'Balance Rock Detour',
+    title: 'Approach to Balance Rock',
     category: 'trail',
     image: 'photos/20261031_121125.jpg'
   },
   {
-    title: 'Route to the Higher Trail',
+    title: 'North Road to Balance Rock',
     category: 'trail',
     image: 'photos/20261031_121427.jpg'
   },
