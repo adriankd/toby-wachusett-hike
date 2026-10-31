@@ -20,7 +20,7 @@ const photos = [
     image: 'photos/20261031_121427.jpg'
   },
   {
-    title: 'Climbing Toward Pine Hill',
+    title: 'Donbrau Trail Climb',
     category: 'summit',
     image: 'photos/20261031_122240.jpg'
   },
@@ -28,6 +28,56 @@ const photos = [
     title: 'Pine Hill Summit',
     category: 'summit',
     image: 'photos/20261031_123805.jpg'
+  },
+  {
+    title: 'Harrington Trail Descent',
+    category: 'trail',
+    image: 'photos/20261031_130707.jpg'
+  },
+  {
+    title: 'Administration Road',
+    category: 'trail',
+    image: 'photos/20261031_130808.jpg'
+  },
+  {
+    title: 'Stage Coach to Echo Lake',
+    category: 'trail',
+    image: 'photos/20261031_131152.jpg'
+  },
+  {
+    title: 'Echo Lake Road',
+    category: 'trail',
+    image: 'photos/20261031_132043.jpg'
+  },
+  {
+    title: 'High Meadow',
+    category: 'trail',
+    image: 'photos/20261031_133450.jpg'
+  },
+  {
+    title: 'Jack Frost Trail',
+    category: 'trail',
+    image: 'photos/20261031_141008.jpg'
+  },
+  {
+    title: 'Mountain House',
+    category: 'summit',
+    image: 'photos/20261031_142149.jpg'
+  },
+  {
+    title: 'Summit Road Return',
+    category: 'trail',
+    image: 'photos/20261031_143014.jpg'
+  },
+  {
+    title: 'Back to Sehumma',
+    category: 'trail',
+    image: 'photos/20261031_143413.jpg'
+  },
+  {
+    title: 'North Road Return',
+    category: 'trail',
+    image: 'photos/20261031_143620.jpg'
   }
 ];
 
